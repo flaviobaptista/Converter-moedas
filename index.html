@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="gold-coin-icon-with-dollar-sign-yuan-euro-pound-and-baht-illustration-free-png.webp"
+        type="image/x-icon">
+
+     
+
+        
+    <title>Projeto com Javascript</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="gold-coin-icon-with-dollar-sign-yuan-euro-pound-and-baht-illustration-free-png.webp"
+            alt="">
+        <div class="txt">
+            <h1>Cotações e converções</h1>
+            <p>Aqui você pode acompanhar a cotação do Dollar e também fazer converção do seu dinheiro</p>
+        </div>
+    </header>
+
+    <section>
+        <div class="inp">
+            <div class="inp-valor">
+                <label>R$ Real</label>
+                <input id="vl_real" placeholder="Digite valor...">
+            </div>
+            <div class="inp-valor">
+                <label>$ Dolar</label>
+                <input id="vl_dollar"  placeholder="Digite valor...">
+            </div>
+        </div>
+        <p id="valueFinal">
+            <label>$ &nbsp</label>
+            <span id="vlresult">0</span>
+        </p>
+        <button onclick="vlop()" >Converter</button>
+    </section>
+
+    <footer>
+        Esse site foi desenvolvido apenas para fins academicos e de aprendizado
+    </footer>
+
+ <script src="main.js"></script>
+</body>
+
+</html>

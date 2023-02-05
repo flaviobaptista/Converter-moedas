@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Prompt:wght@200;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    background: linear-gradient(to bottom, #000835, #3498db);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+}
+
+header .txt h1 {
+    font-size: 3rem;
+    color: rgb(255, 245, 111);
+    text-transform: uppercase;
+}
+
+header .txt p {
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp{
+    display: flex;
+    flex-direction: row;
+}
+
+.inp-valor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 15px;
+    font-size: 1.4rem;
+    color: rgb(97, 250, 105);
+}
+
+section input{
+    width: 15vw;
+    height: 5vh;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+}
+
+section p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    color: aliceblue;
+    font-size: 1.8rem;
+    background-color: #0000007c;
+    border-radius: 10px;
+}
+
+section button{
+    width: 150px;
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(253, 250, 92);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(1, 250, 76);
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #000835;
+    color: aliceblue;
+}
