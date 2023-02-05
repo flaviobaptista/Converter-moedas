@@ -35,6 +35,7 @@ header .txt h1 {
 header .txt p {
     font-size: 1.5rem;
     color: aliceblue;
+    
 }
 
 section {
@@ -71,12 +72,12 @@ section p{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 50px;
+    padding: 10px;
     color: aliceblue;
     font-size: 1.8rem;
     background-color: #0000007c;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 section button{
