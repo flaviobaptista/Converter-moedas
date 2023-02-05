@@ -26,7 +26,7 @@ header img {
 }
 
 header .txt h1 {
-    font-size: 4vw;
+    font-size: 3vw;
     color: rgb(255, 245, 111);
     text-transform: uppercase;
 }
@@ -59,7 +59,7 @@ section {
 
 section input{
     width: 250px;
-    height: 5vh;
+    height: 40px;
     font-size: 1.2rem;
     border-radius: 10px;
     border: none;
@@ -86,6 +86,7 @@ section button{
     border: none;
     background-color: rgb(253, 250, 92);
     cursor: pointer;
+    margin-bottom: 30px;
 }
 
 button:hover{
@@ -94,11 +95,11 @@ button:hover{
 
 
 footer{
-    margin-top: 20px;
     background-color: #000835;
     color: aliceblue;
     text-align: center;
     font-size: 1.3rem;
+    padding: 10px;
 }
 
 @media(max-width:950px) {
@@ -123,6 +124,9 @@ footer{
         font-size: 4vw;
     }
 
+    section{
+        height: 478px;
+    }
 
     section input{
         width: 45vw;
@@ -132,6 +136,7 @@ footer{
 
     footer {
         font-size: 1rem;
+        padding: 10px;
     }
     
     .inp {
