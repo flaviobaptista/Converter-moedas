@@ -2,15 +2,17 @@
 @keyframes rotate {
     to {transform: rotateY(360deg);}
 }
+
+
+
 body {
     margin: 0;
     padding: 0;
     border: 0;
-    height: 100px;
+    height: 100vh;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Prompt', sans-serif;
     background: linear-gradient(90deg, #000835, #3498db);
-    overflow: hidden;
 }
 
 
@@ -43,7 +45,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .inp{
@@ -97,14 +99,13 @@ button:hover{
 }
 
 
-footer{
+.footer{
     background-color: #000835;
     color: aliceblue;
     font-size: 1.3rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     text-align: center;
+    padding: 20px;
+    bottom: 0;
 }
 
 @media(max-width:950px) {

@@ -5,13 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="gold-coin-icon-with-dollar-sign-yuan-euro-pound-and-baht-illustration-free-png.webp"
         type="image/x-icon">
-
-     
-
-        
+    <link rel="stylesheet" href="style.css">
     <title>Projeto com Javascript</title>
 </head>
 
@@ -29,25 +25,26 @@
         <div class="inp">
             <div class="inp-valor">
                 <label>R$ Real</label>
-                <input id="vl_real" placeholder="Digite valor...">
+                <input id="vl_real" type="number" placeholder="Digite valor...">
             </div>
             <div class="inp-valor">
                 <label>$ Dolar</label>
-                <input id="vl_dollar"  placeholder="Digite valor...">
+                <input id="vl_dollar" type="number"  placeholder="Digite valor..." >
             </div>
         </div>
         <p id="valueFinal">
             <label>$ &nbsp</label>
             <span id="vlresult">0</span>
         </p>
-        <button onclick="vlop()" >Converter</button>
+        <button onclick="vlop()">Converter</button>
     </section>
 
-    <footer>
-        Esse site foi desenvolvido apenas para fins academicos e de aprendizado
-    </footer>
+    <div class="footer">
+        <p>Esse site foi desenvolvido apenas para fins academicos e de aprendizado</p>
+    </div>
 
- <script src="main.js"></script>
+    <script src="main.js"></script>
+
 </body>
 
 </html>
