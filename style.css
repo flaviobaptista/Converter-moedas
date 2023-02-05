@@ -10,6 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Prompt', sans-serif;
     background: linear-gradient(90deg, #000835, #3498db);
+    
 }
 
 header {
@@ -124,9 +125,6 @@ footer{
         font-size: 4vw;
     }
 
-    section{
-        height: 478px;
-    }
 
     section input{
         width: 45vw;
@@ -137,6 +135,8 @@ footer{
     footer {
         font-size: 1rem;
         padding: 10px;
+        position: absolute;
+        bottom: 0;
     }
     
     .inp {
