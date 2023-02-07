@@ -28,11 +28,11 @@
         <div class="inp">
             <div class="inp-valor">
                 <label>R$ Real</label>
-                <input id="vl_real" placeholder="Digite valor...">
+                <input id="vl_real" type="number" placeholder="Digite valor...">
             </div>
             <div class="inp-valor">
                 <label>$ Dolar</label>
-                <input id="vl_dollar" placeholder="Digite valor...">
+                <input id="vl_dollar" type="number" placeholder="Digite valor...">
             </div>
         </div>
         <p>
@@ -47,43 +47,6 @@
     </div>
 
     <script src="main.js"></script>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-    <script src="https://plentz.github.io/jquery-maskmoney/javascripts/jquery.maskMoney.min.js"
-        type="text/javascript"></script>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-    <script src="https://plentz.github.io/jquery-maskmoney/javascripts/jquery.maskMoney.min.js"
-        type="text/javascript"></script>
-
-
-
-    <script>
-        jQuery(function () {
-
-            jQuery("#vl_real").maskMoney({
-                prefix: '',
-                thousands: '.',
-                decimal: ','
-            })
-
-        });
-    </script>
-
-    <script>
-        jQuery(function () {
-
-            jQuery("#vl_dollar").maskMoney({
-                prefix: '',
-                thousands: '.',
-                decimal: ','
-            })
-
-        });
-    </script>
-
-
-
 
 </body>
 
