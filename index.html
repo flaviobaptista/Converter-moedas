@@ -28,16 +28,16 @@
         <div class="inp">
             <div class="inp-valor">
                 <label>R$ Real</label>
-                <input id="vl_real" type="number" placeholder="Digite valor...">
+                <input id="vl_real" class="money" placeholder="Digite valor...">
             </div>
             <div class="inp-valor">
                 <label>$ Dolar</label>
-                <input id="vl_dollar" type="number" placeholder="Digite valor...">
+                <input id="vl_dollar" class="money" placeholder="Digite valor...">
             </div>
         </div>
         <p>
-            <label>$ &nbsp</label>
-            <span id="vlresult">0</span>
+            <!-- <label>$ &nbsp</label> -->
+            <span id="vlresult"></span>
         </p>
         <button onclick="vlop()">Converter</button>
     </section>
@@ -47,6 +47,24 @@
     </div>
 
     <script src="main.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://igorescobar.github.io/jQuery-Mask-Plugin/js/jquery.mask.min.js"></script>
+
+
+    <script>
+
+        $(document).ready(function () {
+            $('.money').mask('000000000000000,00', { reverse: true });
+
+            // $(".money").change(function () {
+            //     $("#value").html($(this).val().replace(/\D/g, ''))
+            // })
+
+        });
+
+    </script>
 
 </body>
 
